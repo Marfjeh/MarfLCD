@@ -9,9 +9,12 @@ Make a Arduino LCD status screen.
 
 The firmware has some simple commands, at the start send `~~` at the beginning to start and clean the display.
 Then you can start sending text plain in the serial console.
-`Hello World`
+
+Sending: `Hello World`
+
 This will print Hello world on the display.
 
-You can also do this
-`~Hello World`
+
+Sending: `~Hello World`
+
 This will also print Hello world on the display but it will clean the display first and then print the new text.
